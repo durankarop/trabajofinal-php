@@ -1,0 +1,45 @@
+@media (max-width: 600px) {
+    #navbar-img {
+        width: 25%;
+    }
+
+    .mitad {
+        width: 40%;
+        position: relative;
+        top: 10%;
+        left: 45%;
+    }
+
+    .two-btn {
+        display: flex;
+        flex-flow: column wrap;
+        justify-content: center;
+    }
+
+    #oradores {
+        width: 100%;
+        display: flex;
+        flex-flow: column nowrap;
+    }
+
+    .col-6 {
+        width: 100%;
+    }
+
+    #lugar-fecha {
+        display: flex;
+        flex-flow: column nowrap;
+        width: 100%;
+    }
+
+    #formulario {
+        width: 100%;
+    }
+
+    .footer-container_a {
+        width: 100%;
+        display: flex;
+        flex-flow: column wrap;
+        justify-content: space-between;
+    }
+}
